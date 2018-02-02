@@ -21,10 +21,10 @@ sourceCode
 		case undefined: break; // empty line, do nothing
 		case '#': break; // comment line, do nothing
 		case '+': // concat, add line to string
-			program += `string += '` + line.slice(1) + `';\n`;
+			program += `string += '${ line.slice(1) }';\n`;
 			break;
 		case '-': // remove letters from string
-			program += 'string = string.slice(0, ' + line + ');\n';
+			program += `string = string.slice(0, ${ line });\n`;
 			break;
 		case 'p': // print string
 			program += 'console.log(string);\n';

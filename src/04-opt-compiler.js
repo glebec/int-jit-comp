@@ -27,9 +27,9 @@ sourceCode
 			string = string.slice(0, +line);
 			break;
 		case 'p': // print string
-			program += `console.log('` + string + `');\n`;
+			program += `console.log('${ string }');\n`;
 			break;
-		default: throw Error('unexpected token: ' + line);
+		default: throw Error(`unexpected token: ${ line }`);
 	}
 })
 
