@@ -1,5 +1,7 @@
 # Interpreters, JITs, Compilers (Oh My)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/glebec/int-jit-comp.svg)](https://greenkeeper.io/)
+
 A tiny cross-comparison of code executors and translators for educational purposes.
 
 ### Motivation & Disclaimer
