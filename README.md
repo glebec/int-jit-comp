@@ -1,4 +1,4 @@
-# Interpreters, JITs, Compilers (Oh My)
+# Interpreters, JITs, & Compilers (Oh My)
 
 A tiny cross-comparison of code executors and translators for educational purposes.
 
@@ -7,9 +7,9 @@ A tiny cross-comparison of code executors and translators for educational purpos
 The purpose of this repo is to disambiguate via concrete code examples the following concepts:
 
 * Interpretation
-* JIT compilation
-* Standard compilation
-* Optimizing compilation
+* Just-in-Time (JIT) compilation
+* Ahead-of-Time (AoT) compilation
+* Optimizing AoT compilation
 
 This demo uses an invented, trivial, toy language "GScript" which builds up and/or prints a stateful string. It is not intended to be a realistic language, nor are the implementations of these scripts intended to illustrate viable or recommendable techniques for real languages. In particular, compilers typically lex, parse, and generate code according to formal grammars. The compilers shown here on the other hand are practically primordial in their lack of sophistication.
 
@@ -23,8 +23,8 @@ Filename | Type | Purpose
 `hello-broken.gs` | GScript Program | (Incorrect) Source code
 `01-interpreter.js` | Interpreter | Reads & executes source code
 `02-jit.js` | Just-in-Time (JIT) Compiler | Translates source to JS & runs result
-`03-compiler.js` | Compiler | Translates source to JS & saves result
-`04-opt-compiler.js` | Optimizing Compiler | Translates source, simplifies, & saves result
+`03-compiler.js` | Ahead-of-Time (AoT) Compiler | Translates source to JS & saves result
+`04-opt-compiler.js` | Optimizing AoT Compiler | Translates source, simplifies, & saves result
 
 ## Usage
 
