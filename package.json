@@ -22,12 +22,12 @@
 	"bugs": "https://github.com/glebec/int-jit-comp/issues",
 	"dependencies": {},
 	"devDependencies": {
-		"babel-eslint": "^7.2.3",
-		"eslint": "^3.19.0",
+		"babel-eslint": "^8.2.1",
+		"eslint": "^4.16.0",
 		"eslint-config-fullstack": "^3.0.0",
 		"eslint-formatter-pretty": "^1.1.0",
 		"eslint-plugin-react": "^7.0.1",
 		"eslint-watch": "^3.1.0",
-		"husky": "^0.13.4"
+		"husky": "^0.14.3"
 	}
 }
