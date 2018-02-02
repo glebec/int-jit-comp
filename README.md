@@ -42,7 +42,7 @@ node 04-opt-compiler.js # runs the optimizing compiler
 node hello-world.js # runs the compiled & optimized program
 ```
 
-Read the code, understand how it works, and see the difference in how the final result is produced. There is also a deliberately broken source GS file (`hello-broken.gs`); try changing the files to load that source code. How do the different modules behave when given incorrect code?
+Read the code, understand how it works, and see the difference in how the final result is produced. There is also a deliberately broken source GS file (`hello-broken.gs`); try changing the files to load that source code. How do the different modules behave when given incorrect code? (Hint: the interpreter fails in a different way than the compilers do.)
 
 ## GScript Informal Spec
 
