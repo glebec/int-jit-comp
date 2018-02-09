@@ -1,10 +1,10 @@
 'use strict';
 
-const SOURCE_CODE_FILENAME = './hello-world.gs'
+const SOURCE_CODE_FILENAME = './hello-world.qs'
 
 /**
- * GScript Just-In-Time (JIT) Compiler!
- * This amazing program reads in a GS file, compiles it & then runs it.
+ * QuipScript Just-In-Time (JIT) Compiler!
+ * This amazing program reads in a QS file, compiles it & then runs it.
  * Compilation translates source code to object code, in this case JavaScript.
  */
 
@@ -32,7 +32,7 @@ sourceCode
 	}
 })
 
-// and now that we've compiled our source code (GS) to object code (JS),
+// and now that we've compiled our source code (QS) to object code (JS),
 // we run it (just in time!):
 
 eval(program) // eslint-disable-line no-eval

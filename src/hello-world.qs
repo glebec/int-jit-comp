@@ -1,5 +1,5 @@
-# Welcome to this beautiful GScript program!
-# GScript is a cool new language for building and printing a string.
+# Welcome to this beautiful QuipScript program!
+# QuipScript is a cool new language for building and printing a string.
 
 # Blank lines are ignored.
 # Any line beginning with `#` is a comment.

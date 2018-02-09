@@ -1,10 +1,10 @@
 'use strict';
 
-const SOURCE_CODE_FILENAME = './hello-world.gs'
+const SOURCE_CODE_FILENAME = './hello-world.qs'
 
 /**
- * GScript Interpreter!
- * This amazing program reads in a GS file and interpets it.
+ * QuipScript Interpreter!
+ * This amazing program reads in a QS file and interpets it.
  * Interpretation executes the desired behavior "live" as source code is read.
  */
 

@@ -1,11 +1,11 @@
 'use strict';
 
-const SOURCE_CODE_FILENAME = './hello-world.gs'
+const SOURCE_CODE_FILENAME = './hello-world.qs'
 const OUTPUT_CODE_FILENAME = './hello-world.js'
 
 /**
- * GScript Optimizing Compiler!
- * This program reads a GS file, compiles it, optimizes it, & then outputs it.
+ * QuipScript Optimizing Compiler!
+ * This program reads a QS file, compiles it, optimizes it, & then outputs it.
  * Compilation translates source code to object code, in this case JavaScript.
  */
 
@@ -33,7 +33,7 @@ sourceCode
 	}
 })
 
-// and now that we've compiled our source code (GS) to object code (JS),
+// and now that we've compiled our source code (QS) to object code (JS),
 // we output it so the user can run it in the future:
 
 writeFileSync(OUTPUT_CODE_FILENAME, program)
