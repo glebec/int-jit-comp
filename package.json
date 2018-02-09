@@ -1,5 +1,5 @@
 {
-	"name": "Int-JIT-Comp",
+	"name": "int-jit-comp",
 	"version": "1.0.0",
 	"description": "",
 	"engines": {
@@ -7,8 +7,8 @@
 	},
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"prepush": "echo \"Please configure the prepush script\"",
+		"test": "node test",
+		"prepush": "npm run lint && npm test",
 		"lint": "esw --ext .js,.jsx --ignore-path .gitignore --cache --format node_modules/eslint-formatter-pretty",
 		"lint-watch": "npm run lint -- --watch"
 	},
@@ -23,6 +23,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"babel-eslint": "^7.2.3",
+		"blue-tape": "^1.0.0",
 		"eslint": "^3.19.0",
 		"eslint-config-fullstack": "^3.0.0",
 		"eslint-formatter-pretty": "^1.1.0",
